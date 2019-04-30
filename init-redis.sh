@@ -193,5 +193,3 @@ rm -rf /usr/local/src/redis
 ##停止redis服务
 ##拷贝备份文件到 /usr/local/redis/backup目录下
 ##重新启动redis服务
-
-
