@@ -112,7 +112,7 @@ cat > /usr/local/redis/backup/init-redisbackup.sh <<EOF
 #!/bin/bash
 PATH=/usr/local/redis/bin:\$PATH
 redis-cli -a sanxin SAVE
-time=\$(date +"%Y%m%d%k%M")
+time=\$(date +"%Y%m%d")
 cp /usr/local/redis/backup/dump.rdb /home/redis_backup/\$time.rdb
  
 echo "done!"
