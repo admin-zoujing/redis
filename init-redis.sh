@@ -121,6 +121,8 @@ rm -rf /home/redis_backup/\$before*
 EOF
 chmod 744 /usr/local/redis/backup/init-redisbackup.sh
 echo "30 1 * * * root /usr/local/redis/backup/init-redisbackup.sh >/dev/null 2>&1" >> /etc/crontab
+crontab /etc/crontab
+crontab -l
 
 rm -rf /usr/local/src/redis
 #sshpass -p Root123456 scp /home/redis_backup/* root@192.168.1.101:/home/redis_backup
