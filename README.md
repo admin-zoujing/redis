@@ -1,5 +1,4 @@
 # redis
-
 Redis:
 	KV cache and store
 		in-memory
