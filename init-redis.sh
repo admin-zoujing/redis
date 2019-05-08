@@ -180,7 +180,6 @@ rm -rf /usr/local/src/redis
 #    （2）sysctl vm.overcommit_memory=1
 #    （3）echo 1 > /proc/sys/vm/overcommit_memory
 
-
 #1.启动redis进入redis目录
 #redis-cli
 #2.数据备份
